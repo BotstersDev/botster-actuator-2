@@ -1,0 +1,24 @@
+{
+  "name": "@botsters/botster-actuator",
+  "version": "2.0.0",
+  "description": "Botster Actuator — Hands+Eyes for the Brain-Spine-Actuator model (plain JS, no build step)",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "botster-actuator": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "optionalDependencies": {
+    "@lydell/node-pty": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
